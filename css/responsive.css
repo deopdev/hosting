@@ -1,0 +1,75 @@
+/* Laptop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    img{
+        max-width: 100%;
+    }
+    .header-space {
+        padding: 40px 85px;
+    }
+}
+
+
+/* Normal desktop (LG) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-space {
+        padding: 40px 40px;
+    }
+    .main-menu ul li {
+        margin: 0 14px;
+    }
+    .faq-img img {
+        margin-left: -110px;
+    }
+    .newsfeed-img img {
+        max-width: 100%;
+    }
+    .bootom-img img {
+        max-width: 100%;
+    }
+}
+
+
+/* Tablet desktop (MD) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-space {
+        padding: 40px 10px;
+    }
+    .mean-bar {
+        margin-top: -15px;
+    }
+    .slider-text h2 {
+        font-size: 60px;
+    }
+    .singele-slider {
+        min-height: 784px;
+    }
+    .domain-list ul li {
+        margin:0;
+    }
+    .services-content h2 {
+        font-size: 20px;
+    }
+    .faq-img {
+        text-align: center;
+    }
+    .faq-img img {
+        margin-left: 0;
+    }
+
+    .newsfeed-img img {
+        max-width: 100%;
+    }
+    .bootom-img img {
+        max-width: 100%;
+    }
+
+}
+
+
+/* small mobile (XS) :320px. */
+@media (max-width: 767px) {
+
+
+
+}
